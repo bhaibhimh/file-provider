@@ -95,7 +95,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ AᴅJᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ ⤬', url='https://t.me/+gI4qkfkHgxsyZjQ1')
+                    InlineKeyboardButton('⤬ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ ⤬', url='https://t.me/+gI4qkfkHgxsyZjQ1')
                 ],[
                     InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', url='http://t.me/ittus_bot'),
                     InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
